@@ -39,7 +39,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpMessage: 'Helpful Text!',
+        helpMessage: 'Generic Help Text',
         title: 'Help',
         name: 'Dakota Chumbley'
     })
